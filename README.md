@@ -11,6 +11,15 @@ beautifulsoup4==4.9.0
 cookiejar==0.0.3
 
 Then edit notebooks/pems_submit.sh 
-and edit notebooks/pems_data_downloader.py for "distirct" "Start date" and "End date"
+
+for $dist and $year
+
+python3 pems_data_downloader.py --user_id 'xyz@psu.edu' --password 'ABCD1234' --district $dist --start_year $year --end_year $year --file_type 'station_5min'
 
 Make sure to change the path where you want to save the csv file(s)
+
+You need to change the .py file if you want different file type.
+
+Available Districts: 
+
+['3', '4', '5', '6', '7', '8', '10', '11', '12']
