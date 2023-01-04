@@ -12,3 +12,5 @@ cookiejar==0.0.3
 
 Then edit notebooks/pems_submit.sh 
 and edit notebooks/pems_data_downloader.py for "distirct" "Start date" and "End date"
+
+Make sure to change the path where you want to save the csv file(s)
