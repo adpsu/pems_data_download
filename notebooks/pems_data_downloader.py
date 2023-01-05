@@ -105,6 +105,6 @@ for month in months:
     traffic_station_df = traffic_station_df.iloc[:, 0:12]
     traffic_station_df.columns = columns
 
-    traffic_station_df.to_pickle('/storage/work/amd7293/caltrans-pems/CSV/traffic_station_df_dist_'+str(dist)+'_start_'+str(start)+'_month_'+str(month)+'.pkl',compression='gzip')
+    traffic_station_df.to_pickle('/storage/work/amd7293/caltrans-pems/CSV/traffic_station_df_dist_'+str(dist)+'_'+str(start)+'_month_'+str(month)+'.pkl',compression='gzip')
     print('File saved succesfully for month: '+str(month))
 
