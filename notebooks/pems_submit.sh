@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=198gb
 #SBATCH --time=08:00:00
-#SBATCH --output=PEMS_JOB_DIST_4_2021_%j.log
+#SBATCH --output=PEMS_JOB_DIST_%j.log
 cd $SLURM_SUBMIT_DIR
 source ~/.bashrc
 module purge
