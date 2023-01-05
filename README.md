@@ -2,6 +2,10 @@
 The main idea is taken from Seb-Good/caltrans-pems:master. I have edited a few things to run it on PSU ICDS cluster (Roar Collab).
 Change a few things to make it work: 
 
+You must have a PeMs account, if not register at:
+
+https://pems.dot.ca.gov/?dnode=apply
+
 Create a conda environment which will have:
 numpy==1.18.1
 pandas==1.0.3
