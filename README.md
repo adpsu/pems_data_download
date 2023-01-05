@@ -12,9 +12,9 @@ cookiejar==0.0.3
 
 Then edit notebooks/pems_submit.sh 
 
-for $dist and $year
+for <dist> and <year>
 
-python3 pems_data_downloader.py --user_id 'xyz@psu.edu' --password 'ABCD1234' --district $dist --start_year $year --end_year $year --file_type 'station_5min'
+python3 pems_data_downloader.py --user_id 'xyz@psu.edu' --password 'ABCD1234' --district <dist> --start_year <year> --end_year <year> --file_type 'station_5min'
 
 Make sure to change the path where you want to save the csv file(s)
 
